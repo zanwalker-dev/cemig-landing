@@ -71,9 +71,10 @@ export function HeroCarousel() {
                   <div className="flex flex-col justify-end md:justify-between md:w-[75%] px-4 md:px-6 py-4 md:py-10">
                     <div>
                       <p className="text-basis font-extrabold leading-tight text-[#0F6C58] lg:text-2xl xl:text-3xl">
-                        SEJA UM PARCEIRO ENERGIA LIVRE CEMIG
+                        SEJA UM PARCEIRO ENERGIA <br className="md:hidden" />{" "}
+                        LIVRE CEMIG
                       </p>
-                      <h1 className="mt-1 lg:text-2xl xl:text-3xl">
+                      <h1 className="mt-1 lg:text-2xl">
                         <span className="text-secondary font-bold">
                           Multiplique seus lucros
                         </span>
@@ -135,7 +136,8 @@ export function HeroCarousel() {
                   <div className="flex flex-col justify-end md:justify-between md:w-[75%] px-4 md:px-6 py-4 md:py-10">
                     <div>
                       <p className="text-basis font-extrabold leading-tight text-[#0F6C58] lg:text-2xl xl:text-3xl">
-                        CURSO GRATUITO COM EXPERTS DO MERCADO
+                        CURSO GRATUITO COM EXPERTS <br className="md:hidden" />{" "}
+                        DO MERCADO
                         <br className="hidden md:block" /> LIVRE DE ENERGIA.
                       </p>
                       <h1 className="mt-1 text-sm lg:text-2xl xl:text-3xl block md:hidden">
@@ -147,7 +149,7 @@ export function HeroCarousel() {
                           se destacar no mercado livre de energia.
                         </span>
                       </h1>
-                      <h1 className="mt-1 text-xs lg:text-xl xl:text-2xl md:block hidden">
+                      <h1 className="mt-1 text-xs lg:text-xl md:block hidden">
                         <span className="text-foreground">
                           Domine os fundamentos para{" "}
                         </span>
@@ -157,8 +159,8 @@ export function HeroCarousel() {
                         </span>
                         <span className="text-foreground">
                           {" "}
-                          e esteja pronto para atuar com confiança e gerar
-                          resultados reais.
+                          <br className="hidden md:block" />e esteja pronto para
+                          atuar com confiança e gerar resultados reais.
                         </span>
                       </h1>
                     </div>
@@ -226,7 +228,7 @@ export function HeroCarousel() {
                       <p className="text-basis font-extrabold leading-tight text-[#0F6C58] lg:text-2xl xl:text-3xl">
                         SINAIS DE CONFIANÇA
                       </p>
-                      <h1 className="mt-1 lg:text-2xl xl:text-3xl">
+                      <h1 className="mt-1 lg:text-2xl">
                         <span className="text-foreground">
                           Confira depoimentos de{" "}
                         </span>
@@ -236,6 +238,7 @@ export function HeroCarousel() {
                         </span>
                         <span className="text-foreground">
                           {" "}
+                          <br className="hidden md:block" />
                           com o Mercado Livre de Energia. 
                         </span>
                       </h1>
