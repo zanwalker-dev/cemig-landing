@@ -54,7 +54,7 @@ export function TrustSignalsSection() {
         {/* Cabeçalho ESTÁTICO */}
         <h2
           id="trust-title"
-          className="text-center text-[28px] text-[#2F7A67] md:text-[40px]"
+          className="text-center text-[28px] text-[#2F7A67] md:text-3xl"
         >
           Sinais de confiança
         </h2>
