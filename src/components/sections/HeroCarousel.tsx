@@ -88,7 +88,7 @@ export function HeroCarousel() {
                       <a href="/questionario">
                         <Button
                           size="lg"
-                          className="px-8 uppercase tracking-wide w-full md:w-fit"
+                          className="px-8 uppercase tracking-wide w-full md:w-fit md:px-18"
                         >
                           QUERO SER PARCEIRO
                         </Button>
@@ -166,7 +166,7 @@ export function HeroCarousel() {
                       <a href="/questionario">
                         <Button
                           size="lg"
-                          className="px-8 uppercase tracking-wide  w-full md:w-fit bg-[#1EFF8C] text-black"
+                          className="px-8 uppercase tracking-wide  w-full md:w-fit md:px-18"
                         >
                           QUERO APRENDER
                         </Button>
@@ -244,7 +244,7 @@ export function HeroCarousel() {
                       <a href="/questionario">
                         <Button
                           size="lg"
-                          className="px-8 uppercase tracking-wide w-full md:w-fit"
+                          className="px-8 uppercase tracking-wide w-full md:w-fit md:px-18"
                         >
                           CONFERIR DEPOIMENTOS
                         </Button>
