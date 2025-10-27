@@ -10,7 +10,7 @@ export function StepsSection() {
       <div className="mx-auto max-w-[1200px] px-4 py-10 md:px-8 md:py-14 container">
         <h2
           id="steps-title"
-          className="mx-auto max-w-[980px] text-center text-[26px] leading-tight text-foreground md:text-3xl"
+          className="mx-auto max-w-[980px] text-center text-2xl leading-tight text-foreground md:text-3xl"
         >
           Se você é{" "}
           <span className="font-bold text-[#0F6C58]">
