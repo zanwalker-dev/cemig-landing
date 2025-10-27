@@ -76,11 +76,11 @@ export function AchievementsSection() {
 
           {/* 4 */}
           <article className="text-center">
-            <div className="mx-auto mb-4 grid h-16 w-16 place-items-center rounded-full bg-[#66FF9B] md:h-20 md:w-20">
+            <div className="mx-auto mb-4 grid h-16 w-16 place-items-center rounded-full md:h-20 md:w-20">
               <img
                 src="/icons/rgc_cemig.png"
                 alt="Selo RGC Cemig"
-                className="h-14 w-14 md:h-12 md:w-12"
+                className="h-16 w-16 md:h-20 md:w-20"
                 loading="lazy"
               />
             </div>
